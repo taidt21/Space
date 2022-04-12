@@ -1,0 +1,358 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+html{
+	font-family:'Roboto', sans-serif;
+}
+::selection{
+	background-color: rgb(0 189 142 / 10%);
+	color: #005c45;
+}
+/*header*/
+
+.text-primary-dark-active{
+	color:#198754!important;
+}
+.text-primary-dark{
+	color:#008060;
+}
+header .text-primary-dark:hover,:focus{
+	color:#005c45!important;
+}
+.login{
+	padding:10px 20px!important;
+}
+.login:hover{
+	background-color:#8e939c28!important;
+}
+.login:focus{
+	box-shadow:none;
+}
+.btn-primary-dark{
+	background-color: #008060;
+	width: 100%;
+}
+.btn-primary-dark:hover{
+	background-color:#005c45!important ;
+}
+.signup:hover{
+	background-color:#074a3a!important;
+	box-shadow:0px 0px 15px 1px #0080604f;
+}
+.signup:focus{
+	box-shadow:none!important;
+}
+.signup:active{
+	box-shadow:none;
+}
+.login-google{
+	width:100%!important;
+	color:#51596c;
+	border:1px solid rgba(172, 152, 152, 0.37)!important;
+}
+.login-google:hover{
+	box-shadow:0px 3px rgba(0,0,0,.075)!important;
+	color:#005c45;
+}
+.text-dark-light{
+	color: #51596c !important;;
+}
+@media(min-width:992px){
+	.nav-divider{
+	height:35px;
+	border-left:1px solid #91969f;
+	margin:5px 10px;
+	opacity:0.3;
+}
+}
+@media(max-width:991.99px){
+	.nav-divider{
+		width:100%;
+		border-bottom:1px solid #91969f;
+		margin:10px 5px;
+		opacity:0.3;
+	}
+}
+.active-grey-light{
+	color:#223b41!important;
+	width:95%;
+	display:block;
+	margin:0 auto;
+}
+.active-grey-light:active{
+	background-color:#ebedf1!important;
+	color:#223b41!important;
+}
+.bring-landings{
+	width:40% !important;
+	top: 105% !important;
+	left: 45% !important;
+}
+.bring-pages{
+	width:97%!important;
+	top: 106% !important;
+	left: 2%!important;
+	border: none !important;
+}
+.bring-blogs{
+	top: 105% !important;
+	left: 65%!important;
+}
+.bring-docs{
+	left:69%!important;
+	top:105%!important;
+	width:30% !important;
+}
+.signup,.login{
+	display:inline-block;
+}
+.signup{
+	background-color: #008060!important;
+}
+.modal-close{
+	top: 10%;
+	right:3%;
+}
+.btn-close:focus,.btn-primary-dark:focus{
+	box-shadow:none;
+}
+
+/*section collaboration*/
+section.collaboration{
+	padding: 100px 0px;
+}
+.list-checked-item{
+	color:#51596c;
+}
+.bg-img-center{
+	background-image:url(img/background-dep.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center center;
+	
+}
+.mb-lg-7{
+	margin-bottom:90px;
+}
+
+/*section solvings*/
+.solvings .text-primary-dark{
+	color:#005c45;
+}
+section.solvings{
+	background-color:#005c45!important;
+	padding: 100px 0px;
+}
+.text-white-70{
+	color:rgb(255 255 255 / 70%);
+}
+.text-grey-light{
+	color: #91969f;
+}
+.fs-18{
+	font-size: 18px;
+}
+.fs-20{
+	font-size: 20px;
+}
+.fw-500{
+	font-weight:500;
+}
+.solving .btn-primary-dark{
+	background-color: #005c45!important;
+}
+.solving .btn-primary-dark:hover{
+	background-color: #06362a!important;
+}
+.support{
+	border:none!important;
+}
+.companies{
+	color:#51596c;
+}
+section.solvings label{
+	color:#51596c;
+}
+.logo-brand-amazon{
+	margin-top:33px;
+}
+solvings.divider{
+	border-top:1px solid rgba(231, 220, 226, 0.2)!important;
+}
+/*section forwrad*/
+.forward .container{
+	padding:120px 12px 0px;
+}
+.max-width-22rem{
+	max-width: 22rem;
+}
+.img-pc{
+	max-width: 100%;
+}
+.device{
+	margin-left: -0.75rem;
+	margin-right: -0.75rem;
+	max-width: 1140px;
+}
+.mobile{
+	top:15%;
+}
+.img-mobile{
+	border-radius:20px;
+}
+.nav-pills .bg-green-light.active, .nav-pills .show>.bg-green-light{
+    background-color: rgb(0 189 142 / 10%);
+}
+/*section about*/
+section.about{
+	padding:120px 12px;
+}
+.bg-primary-dark{
+	background-color:#005c45!important;
+}
+.bg-grey-light{
+	background-color: rgba(249,250,252,.1);
+}
+
+
+.card-img{
+	width:100%;
+}
+/*section questions*/
+.questions{
+	padding-top: 120px;
+}
+.accordion-primary-dark:hover{
+	color:#005c45;
+}
+.accordion-primary-dark:not(.collapsed){
+    color: #007356;
+    background-color: rgba(0,189,142,.1); 
+}
+.accordion-primary-dark-collapse{
+    background-color: rgba(0,189,142,.1);
+	color:#51596c;
+}
+.questions .text-primary-dark{
+	color:#005c45;
+}
+.delimiter{
+	border-top:1px solid #91969f3a;
+	width: 40%;
+}
+.shape svg{
+	width:100%;
+	height:auto;
+	margin-bottom:-1px;
+}
+.shape{
+	z-index:-1;
+	left:0;
+	right:0;
+}
+/*section potential*/
+.potential{
+	background-color: rgba(241,185,128,.1)!important;
+}
+@media(min-width:768px){
+	.potential .container{
+		padding:7.5rem 0rem!important;
+	}
+}
+.potential .slogan{
+	color: rgba(0,0,0,.65)!important;
+}
+@media(min-width:576px){
+	.potential .divider-1{
+		border-right:1px solid #91969f3a;
+		height:210px;
+	}
+}
+@media(min-width:992px){
+	.potential .divider-1{
+		height:130px;
+	}
+}
+@media(min-width:576px){
+	.potential .divider-2{
+		border-left:1px solid #91969f3a;
+		height:210px;
+	}
+}
+@media(min-width:992px){
+	.potential .divider-2{
+		height:130px;
+}
+}
+@media(max-width:575.99px){
+	.potential .divider-1{
+		width: 100%;
+		border-bottom:1px solid #91969f3a;
+	}
+}
+@media(max-width:575.99px){
+	.potential .divider-2{
+		border-top:1px solid #91969f3a;
+		width: 100% !important;;
+	}
+}
+@media(min-width:992px){
+.w-lg-65{
+	width:65%;
+}
+}
+/*section thousands*/
+.thousands .container{
+	padding-top:5rem;
+	padding-bottom:4rem!important;
+}
+.thousands{
+	background-color:#005c45!important;
+}
+/*footer*/
+footer{
+	background-color:#005c45!important;
+}
+.text-primary-light{
+	color:#00bd8e!important;
+}
+.blurred-letters:hover{
+	color:rgba(241, 241, 241, 0.397)!important;
+}
+.bg-yl{
+	background-color:#f1b980!important;
+	font-weight: 500!important;
+}
+.bg-yl:hover{
+	opacity:0.5;
+}
+.click-language{
+	background:#0ed1a04f!important;
+	font-weight: 400;
+}
+.w-90{
+	width: 90%;
+}
+.w-90:active{
+	background-color:#ebedf1;
+	color:#00221c;
+}
+.divider{
+	border-top:1px solid #91969f3a;
+}
+.click-language:hover,.click-language:focus{
+	background:#fff!important;
+	color:#00221c!important;
+}
+.btn-icon{
+	background-color: rgba(249,250,252,.1);
+	width:40px!important;
+	height:40px!important;
+}
+.btn-icon:hover{
+	background-color:#fff;
+	color:#100!important;
+}
